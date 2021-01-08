@@ -1,0 +1,346 @@
+
+@font-face{
+    font-family: delicious;
+    src: url("fonts/Delicious Curls.ttf");
+}
+@font-face{
+    font-family: delicious_bold;
+    src: url("fonts/Delicious Curls bold.ttf");
+}
+
+
+/* couleurs principales du site */
+.bg-saumon{
+    background-color: #e4d3ba;
+}
+
+.coul-marron{
+    color:  #af8d69;
+}
+ .coul-rose{
+    color: #d73055;
+ }
+
+/*  mobile first */
+
+                        /*header   */
+body{
+    max-width: 600px;
+    background-color: #e4d3ba;
+    color: #af8d69;
+    padding: 10px;
+    font-size: 0.8em;
+}
+
+header{
+    
+    text-align: center;
+    padding-bottom: 60px;
+    border-bottom: 2px solid #af8d69;
+}
+
+#logo{
+    width: 64px;
+}
+
+header h1{
+    font-family: delicious_bold, arial;
+    color: #d73055;
+    font-size: 2.8em;
+}
+
+header h4,p{
+    font-size: 1.4em;
+}
+
+                        /* promo*/
+
+
+
+#promo{
+    text-align: center;
+    line-height: 55px;
+    padding-bottom: 50px;
+    
+}
+
+#promo strong{
+    color: #d73055;
+}
+
+
+
+                        /* nav */
+
+nav ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    list-style: none;
+    font-family: delicious_bold, arial;
+    
+    font-size: 1.5em;
+}
+
+nav a{
+    padding: 10px;
+    color: #d73055;
+}
+
+nav a:hover{
+    border-bottom: 2px solid #d73055;
+    position: relative;
+    left: 5px;
+    top: 5px;
+}
+
+nav a:visited{
+    color: #80172e;;
+
+}
+
+nav a:link{
+    color: #d73055;;
+    text-decoration: none;
+}
+
+nav a:active{
+    color: r#d73055;;
+}
+
+
+
+
+
+                            /* horaires */
+#horaires{
+    width: 220px;
+    margin: auto;
+    padding: 10px;
+    border: 2px solid #af8d69;
+    border-radius: 0px 0px 20px 0px;
+    font-size: 1.4em;
+    margin-top: 40px;
+    margin-bottom: 60px;
+
+}
+
+
+
+
+
+
+                    /* presentation
+                    */
+#presentation{
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+#presentation img{
+    margin-top: 35px;
+    margin-bottom: 65px;
+}
+
+footer{
+    border-top: 2px solid #af8d69;
+    padding-top: 20px;
+    margin-top: 55px;
+}
+            
+
+
+
+
+                                                /* page 2 soins */
+
+#soins h2{
+    text-align: center;
+    color: #d73055;
+    font-size: 2.2em;
+    text-decoration: underline #d73055;
+    margin-bottom: 45px;
+}
+
+
+.soin{
+    border: 2px solid #af8d69;
+    border-radius: 0px 10px 10px 0px;
+    padding: 10px;
+    margin-bottom: 25px;
+}
+
+
+.description h4{
+    color:#d73055;
+    font-size: 1.6em;
+    font-weight: 600;
+}
+
+.prix{
+    color: #d73055;
+    font-size: 1.4em;
+}
+
+
+                                            /* page 3 tarifs  */
+
+  #tarifs{
+      text-align: center;
+      font-size: 1.4em;
+  }    
+  
+  #tarifs h2{
+      color: #d73055;
+      font-size: 1.8em;
+      text-decoration: underline #d73055;
+  }
+
+  #tarifs table{
+    margin: auto;
+    width: 400px;
+  }
+
+  .g{
+      text-align: left;
+  }
+
+  .d{
+      text-align: right;
+  }
+
+
+
+
+
+
+
+
+
+                                        /* page 4 liens */
+#liens{
+    text-align: center;
+    font-size: 1.8em;
+    margin-bottom: 45px;
+
+} 
+#liens ul{
+    list-style: none;
+}
+
+#liens li{
+    margin: 25px;
+}
+
+
+
+
+/* tablette  */
+@media screen and (min-width: 680px){
+    body{
+        max-width: 1200px;
+    }
+
+    header{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    #logo{
+        width: 128px;
+    }
+
+    nav ul{
+        font-size: 2.2em;
+    }
+
+    #presentation{
+        text-align: right;
+    }
+
+    #presentation img{
+        max-width: 612px;
+    }
+
+    /* page 2*/
+    .soin{
+        border: none;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding-right: 50px;
+    }
+
+    .prix{
+        margin-top: 80px;
+        margin-left: 35px;
+    }
+
+    /* page 3 */
+    #tarifs table{
+        width: 600px;
+    }
+
+
+    /* page 4 */
+    #liens ul{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+/*   pc */
+@media screen and (min-width: 1200px){
+    body{
+        max-width: 2200px;
+        position: relative;
+    }
+
+    main{
+        margin-top: 160px;
+    }
+
+    #presentation{
+        flex-direction: column;
+        text-align: right;
+        padding: 50px;
+        margin: auto;
+
+    }
+    #presentation img{
+        max-width: 1200px;
+        margin-left: 150px;
+    }
+
+    #horaires{
+        position: absolute;
+        right: 20px;
+        top: 380px;
+    }
+
+    #logo{
+        width: 226px;
+    }
+    
+    header h1{
+        font-size: 3.8em;
+    }
+
+    nav a{
+        padding: 30px;
+    }
+
+    /* page 3  */
+     /* page 3 */
+     #tarifs table{
+        width: 1200px;
+    }
+}
+
+
+
+
+
