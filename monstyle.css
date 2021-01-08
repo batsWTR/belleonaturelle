@@ -1,346 +1,189 @@
-
-@font-face{
-    font-family: delicious;
-    src: url("fonts/Delicious Curls.ttf");
+@font-face {
+  font-family: delicious;
+  src: url("fonts/Delicious Curls.ttf");
 }
-@font-face{
-    font-family: delicious_bold;
-    src: url("fonts/Delicious Curls bold.ttf");
+@font-face {
+  font-family: delicious_bold;
+  src: url("fonts/Delicious Curls bold.ttf");
 }
-
-
-/* couleurs principales du site */
-.bg-saumon{
-    background-color: #e4d3ba;
+* {
+  margin: 0;
+  padding: 0;
 }
 
-.coul-marron{
-    color:  #af8d69;
-}
- .coul-rose{
-    color: #d73055;
- }
-
-/*  mobile first */
-
-                        /*header   */
-body{
-    max-width: 600px;
-    background-color: #e4d3ba;
-    color: #af8d69;
-    padding: 10px;
-    font-size: 0.8em;
+body {
+  box-sizing: border-box;
+  background-color: #e4d3ba;
+  color: #af8d69;
+  font-size: 100%;
 }
 
-header{
-    
-    text-align: center;
-    padding-bottom: 60px;
-    border-bottom: 2px solid #af8d69;
+.header {
+  border-bottom: 2px solid #af8d69;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 1rem;
+}
+.header__logo {
+  align-self: flex-start;
+  margin: 0.4rem;
+}
+.header__logo img {
+  width: 80px;
+  height: 80px;
+  object-fit: contain;
+}
+.header h1 {
+  font-family: delicious_bold;
+  color: #d73055;
+  font-size: 2.5rem;
+  padding: 20px 0;
+}
+.header__address {
+  text-align: center;
+}
+.header__address h4 {
+  margin: 8px 0;
 }
 
-#logo{
-    width: 64px;
+.promo {
+  font-size: 0.7rem;
+  text-align: center;
+  margin: 10px 0;
+}
+.promo strong {
+  font-style: italic;
+  color: #d73055;
+  font-weight: bold;
 }
 
-header h1{
-    font-family: delicious_bold, arial;
-    color: #d73055;
-    font-size: 2.8em;
+.nav ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  list-style: none;
+  font-family: delicious_bold;
+}
+.nav__item {
+  margin: 4px 10px;
+  font-size: 1.4rem;
+}
+.nav__item a {
+  color: #d73055;
+  text-decoration: none;
+}
+.nav__item a:hover {
+  border-bottom: 2px solid #d73055;
 }
 
-header h4,p{
-    font-size: 1.4em;
+.horaires {
+  margin: 15px 0;
+  padding: 10px 0;
+}
+.horaires table {
+  margin: auto;
+  border: 2px solid #af8d69;
+  border-radius: 0 0 15px 0;
+  padding-bottom: 8px;
+}
+.horaires__jour {
+  text-align: left;
+  padding-left: 5px;
+  padding-right: 10px;
+}
+.horaires__heure {
+  text-align: right;
+  padding-left: 10px;
+  padding-right: 5px;
 }
 
-                        /* promo*/
-
-
-
-#promo{
-    text-align: center;
-    line-height: 55px;
-    padding-bottom: 50px;
-    
+.presentation {
+  margin: 0 10px;
+}
+.presentation img {
+  max-width: 100%;
+  height: auto;
+  text-align: center;
+}
+.presentation__texte {
+  margin: 15px 0;
 }
 
-#promo strong{
-    color: #d73055;
+.phyts {
+  margin: 15px 3px;
+}
+.phyts h1 {
+  margin: 15px 0;
+}
+.phyts h3 {
+  margin: 10px 0;
 }
 
-
-
-                        /* nav */
-
-nav ul{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    list-style: none;
-    font-family: delicious_bold, arial;
-    
-    font-size: 1.5em;
+/* ----------------------------------- page soin   */
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: border-box;
+}
+.container h2 {
+  color: #d73055;
+  text-align: center;
+  text-decoration: underline;
+  margin: 15px 0;
 }
 
-nav a{
-    padding: 10px;
-    color: #d73055;
+.soin {
+  border: 2px solid #af8d69;
+  margin: 10px 5px;
+  padding: 5px;
+  border-radius: 0 10px 10px 0;
+  width: 90%;
+}
+.soin__description h4 {
+  color: #d73055;
+  margin: 5px 10px;
+}
+.soin__prix {
+  text-align: right;
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin: 10px 5px;
 }
 
-nav a:hover{
-    border-bottom: 2px solid #d73055;
-    position: relative;
-    left: 5px;
-    top: 5px;
+/*------------------------------------ page tarif    */
+.container table {
+  width: 90%;
+}
+.container p {
+  margin: 15px 0;
 }
 
-nav a:visited{
-    color: #80172e;;
-
+.g {
+  padding-right: 10px;
 }
 
-nav a:link{
-    color: #d73055;;
-    text-decoration: none;
+.d {
+  text-align: right;
+  white-space: nowrap;
 }
 
-nav a:active{
-    color: r#d73055;;
+/*-------------------------------------- liens  */
+.liens h2 {
+  color: #d73055;
+  text-align: center;
+  text-decoration: underline;
+  margin: 15px 0;
+}
+.liens ul {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  list-style: none;
+}
+.liens ul li {
+  margin: 10px 0;
 }
 
-
-
-
-
-                            /* horaires */
-#horaires{
-    width: 220px;
-    margin: auto;
-    padding: 10px;
-    border: 2px solid #af8d69;
-    border-radius: 0px 0px 20px 0px;
-    font-size: 1.4em;
-    margin-top: 40px;
-    margin-bottom: 60px;
-
-}
-
-
-
-
-
-
-                    /* presentation
-                    */
-#presentation{
-    display: flex;
-    flex-direction: column-reverse;
-}
-
-#presentation img{
-    margin-top: 35px;
-    margin-bottom: 65px;
-}
-
-footer{
-    border-top: 2px solid #af8d69;
-    padding-top: 20px;
-    margin-top: 55px;
-}
-            
-
-
-
-
-                                                /* page 2 soins */
-
-#soins h2{
-    text-align: center;
-    color: #d73055;
-    font-size: 2.2em;
-    text-decoration: underline #d73055;
-    margin-bottom: 45px;
-}
-
-
-.soin{
-    border: 2px solid #af8d69;
-    border-radius: 0px 10px 10px 0px;
-    padding: 10px;
-    margin-bottom: 25px;
-}
-
-
-.description h4{
-    color:#d73055;
-    font-size: 1.6em;
-    font-weight: 600;
-}
-
-.prix{
-    color: #d73055;
-    font-size: 1.4em;
-}
-
-
-                                            /* page 3 tarifs  */
-
-  #tarifs{
-      text-align: center;
-      font-size: 1.4em;
-  }    
-  
-  #tarifs h2{
-      color: #d73055;
-      font-size: 1.8em;
-      text-decoration: underline #d73055;
-  }
-
-  #tarifs table{
-    margin: auto;
-    width: 400px;
-  }
-
-  .g{
-      text-align: left;
-  }
-
-  .d{
-      text-align: right;
-  }
-
-
-
-
-
-
-
-
-
-                                        /* page 4 liens */
-#liens{
-    text-align: center;
-    font-size: 1.8em;
-    margin-bottom: 45px;
-
-} 
-#liens ul{
-    list-style: none;
-}
-
-#liens li{
-    margin: 25px;
-}
-
-
-
-
-/* tablette  */
-@media screen and (min-width: 680px){
-    body{
-        max-width: 1200px;
-    }
-
-    header{
-        display: flex;
-        flex-direction: row;
-        justify-content: space-around;
-    }
-
-    #logo{
-        width: 128px;
-    }
-
-    nav ul{
-        font-size: 2.2em;
-    }
-
-    #presentation{
-        text-align: right;
-    }
-
-    #presentation img{
-        max-width: 612px;
-    }
-
-    /* page 2*/
-    .soin{
-        border: none;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        padding-right: 50px;
-    }
-
-    .prix{
-        margin-top: 80px;
-        margin-left: 35px;
-    }
-
-    /* page 3 */
-    #tarifs table{
-        width: 600px;
-    }
-
-
-    /* page 4 */
-    #liens ul{
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        align-items: center;
-    }
-}
-
-/*   pc */
-@media screen and (min-width: 1200px){
-    body{
-        max-width: 2200px;
-        position: relative;
-    }
-
-    main{
-        margin-top: 160px;
-    }
-
-    #presentation{
-        flex-direction: column;
-        text-align: right;
-        padding: 50px;
-        margin: auto;
-
-    }
-    #presentation img{
-        max-width: 1200px;
-        margin-left: 150px;
-    }
-
-    #horaires{
-        position: absolute;
-        right: 20px;
-        top: 380px;
-    }
-
-    #logo{
-        width: 226px;
-    }
-    
-    header h1{
-        font-size: 3.8em;
-    }
-
-    nav a{
-        padding: 30px;
-    }
-
-    /* page 3  */
-     /* page 3 */
-     #tarifs table{
-        width: 1200px;
-    }
-}
-
-
-
-
-
+/*# sourceMappingURL=monstyle.css.map */

@@ -1,191 +1,188 @@
 <!DOCTYPE html>
 
+
 <!--commentaire-->
-<html>
+<html lang="fr">
     <head>
         <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Institut de beauté en vallée verte" />
+        <meta name="keywords" content="institut de beauté, salon de beauté, manucure, esthétique, esthéticienne, bogève,vallée verte" />
         <link rel="stylesheet" href="monstyle.css" />
-        <title>Belle o Natur'elle</title>
+        <meta name="viewport" content="device=device-width, initial-scale=1.0"/>
+        <title>Belle o Natur'elle Institut de beauté</title>
     </head>
     <body>
-        <header>
-            <div>
+        <header class="header">
+            <div class="header__logo">
                 <img src="logo_pap.png" alt="logo" id="logo"/>
             </div>
-            <div>
-                <h1>Belle O Natur'elle</h1>
-            </div>
-            <div id="tel">
+            <h1>Belle O Natur'elle</h1>
+            <div class="header__address">
                 <h4>06.51.28.47.09</h4>
-                <p>
-                    coupe 66<br/>
-                    43 place de la Mairie<br/>
-                    74250 Bogève
-                </p>
+                <p>coupe 66</p>
+                <p>43 place de la Mairie</p>
+                <p>74250 Bogève</p>
             </div>
         </header>
-        <p id="promo"><strong>-20%</strong> sur toutes les épilations pour les jeunes de - de <strong>20 ans</strong></p>
-        <nav>
+        <p class="promo"><strong>-20%</strong> sur toutes les épilations pour les jeunes de - de <strong>20 ans</strong></p>
+        <nav class="nav">
             <ul>
-                <li><a href="index.php">Accueil</a></li>
-                <li><a href="soins.html">Soins</a></li>
-                <li><a href="tarifs.html">Tarifs</a></li>
-                <li><a href="liens.html">Liens</a></li>
+                <li class="nav__item"><a href="index.php">Accueil</a></li>
+                <li class="nav__item"><a href="soins.html">Soins</a></li>
+                <li class="nav__item"><a href="tarifs.html">Tarifs</a></li>
+                <li class="nav__item"><a href="liens.html">Liens</a></li>
             </ul>
         </nav>
-        <aside id="horaires">
+        <aside class="horaires">
             <table>
                 <tr>
                     <th>Jour</th>
                     <th>Heures</th>
                 </tr>
                 <tr>
-                    <td class="jour">Lundi</td>
-                    <td class="heure">9h - 19h</td>
+                    <td class="horaires__jour">Lundi</td>
+                    <td class="horaires__heure">9h - 19h</td>
                 </tr>
                 <tr>
-                    <td class="jour">Mardi</td>
-                    <td class="heure">Fermé</td>
+                    <td class="horaires__jour">Mardi</td>
+                    <td class="horaires__heure">Fermé</td>
                 </tr>
                 <tr>
-                    <td class="jour">Mercredi</td>
-                    <td class="heure">Fermé</td>
+                    <td class="horaires__jour">Mercredi</td>
+                    <td class="horaires__heure">Fermé</td>
                 </tr>
                 <tr>
-                    <td class="jour">Jeudi</td>
-                    <td class="heure">9h - 19h</td>
+                    <td class="horaires__jour">Jeudi</td>
+                    <td class="horaires__heure">9h - 19h</td>
                 </tr>
                 <tr>
-                    <td class="jour">Vendredi</td>
-                    <td class="heure">9h - 17h</td>
+                    <td class="horaires__jour">Vendredi</td>
+                    <td class="horaires__heure">9h - 17h</td>
                 </tr>
                 <tr>
-                    <td class="jour">Samedi</td>
-                    <td class="heure">8h30 - 16h</td>
+                    <td class="horaires__jour">Samedi</td>
+                    <td class="horaires__heure">8h30 - 16h</td>
                 </tr>
                 <tr>
-                    <td class="jour">Dimanche</td>
-                    <td class="heure">Fermé</td>
+                    <td class="horaires__jour">Dimanche</td>
+                    <td class="horaires__heure">Fermé</td>
                 </tr>
 
             </table>
 
         </aside>
-        <main>
-            <section id="tarifs">
-                <h2>Epilations</h2>
-                <table>
-                    <tr>
-                        <td class="g">Visage</td>
-                        <td class="d">19 euros</td>
-                    </tr>
-                    <tr>
-                        <td class="g">Sourcils</td>
-                        <td class="d">10 euros</td>
-                    </tr>
-                    <tr>
-                        <td class="g">Lèvres</td>
-                        <td class="d">5 euros</td>
-                    </tr>
-                    <tr>
-                        <td class="g">Aisselles</td>
-                        <td class="d">10 euros</td>
-                    </tr>
-                    <tr>
-                        <td class="g">Avant bras</td>
-                        <td class="d">14 euros</td>
-                    </tr>
-                    <tr>
-                        <td class="g">Bras</td>
-                        <td class="d">17 euros</td>
-                    </tr>
-                    <tr>
-                        <td class="g">Demi jambes</td>
-                        <td class="d">18 euros</td>
-                    </tr>
-                    <tr>
-                        <td class="g">Jambes complètes</td>
-                        <td class="d">27 euros</td>
-                    </tr>
-                    <tr>
-                        <td class="g">Cuisses</td>
-                        <td class="d">12 euros</td>
-                    </tr>
-                    <tr>
-                        <td class="g">Maillot classique</td>
-                        <td class="d">10 euros</td>
-                    </tr>
-                    <tr>
-                        <td class="g">Maillot échancré</td>
-                        <td class="d">15 euros</td>
-                    </tr>
-                    <tr>
-                        <td class="g">Maillot complet</td>
-                        <td class="d">25 euros</td>
-                    </tr>
-                    <tr>
-                        <td class="g">Dos</td>
-                        <td class="d">20 euros</td>
-                    </tr>
-                    <tr>
-                        <td class="g">Torse</td>
-                        <td class="d">19 euros</td>
-                    </tr>
-                    <tr>
-                        <td class="g">Epaules</td>
-                        <td class="d">5 euros</td>
-                    </tr>
-                </table>
-                <h2>Maquillage</h2>
-                <table>
-                    <tr>
-                        <td class="g">Maquillage jour</td>
-                        <td class="d">25 euros</td>
-                    </tr>
-                    <tr>
-                        <td class="g">Maquillage soir</td>
-                        <td class="d">30 euros</td>
-                    </tr>
-                    <tr>
-                        <td class="g">Teinture cils</td>
-                        <td class="d">15 euros</td>
-                    </tr>
-                    <tr>
-                        <td class="g">Teinture de Sourcils</td>
-                        <td class="d">12 euros</td>
-                    </tr>
-                </table>
-                <p><strong>*** Forfaits mariage sur demande ***</strong></p>
-                <h2>Les forfaits épilations</h2>
-                <table>
-                    <tr>
-                        <td class="g">Demi jambes + aisselles ou maillot S</td>
-                        <td class="d">26 euros</td>
-                    </tr>
-                    <tr>
-                        <td class="g">Jambes complètes + aisselles ou maillot S</td>
-                        <td class="d">36 euros</td>
-                    </tr>
-                    <tr>
-                        <td class="g">Demi jambes + aisselles + maillot E</td>
-                        <td class="d">36 euros</td>
-                    </tr>
-                    <tr>
-                        <td class="g">Jambes complètes + aisselles + maillot E</td>
-                        <td class="d">42 euros</td>
-                    </tr>
-                    <tr>
-                        <td class="g">Demi jambes + aisselles + maillot I</td>
-                        <td class="d">50 euros</td>
-                    </tr>
-                    <tr>
-                        <td class="g">Jambes complètes + aisselles + maillot I</td>
-                        <td class="d">59 euros</td>
-                    </tr>
-                </table>
-            </section>
-        </main>
+        <section class="container">
+            <h2>Epilations</h2>
+            <table>
+                <tr>
+                    <td class="g">Visage</td>
+                    <td class="d">19 &#x20AC;</td>
+                </tr>
+                <tr>
+                    <td class="g">Sourcils</td>
+                    <td class="d">10 &#x20AC;</td>
+                </tr>
+                <tr>
+                    <td class="g">Lèvres</td>
+                    <td class="d">5 &#x20AC;</td>
+                </tr>
+                <tr>
+                    <td class="g">Aisselles</td>
+                    <td class="d">10 &#x20AC;</td>
+                </tr>
+                <tr>
+                    <td class="g">Avant bras</td>
+                    <td class="d">14 &#x20AC;</td>
+                </tr>
+                <tr>
+                    <td class="g">Bras</td>
+                    <td class="d">17 &#x20AC;</td>
+                </tr>
+                <tr>
+                    <td class="g">Demi jambes</td>
+                    <td class="d">18 &#x20AC;</td>
+                </tr>
+                <tr>
+                    <td class="g">Jambes complètes</td>
+                    <td class="d">27 &#x20AC;</td>
+                </tr>
+                <tr>
+                    <td class="g">Cuisses</td>
+                    <td class="d">12 &#x20AC;</td>
+                </tr>
+                <tr>
+                    <td class="g">Maillot classique</td>
+                    <td class="d">10 &#x20AC;</td>
+                </tr>
+                <tr>
+                    <td class="g">Maillot échancré</td>
+                    <td class="d">15 &#x20AC;</td>
+                </tr>
+                <tr>
+                    <td class="g">Maillot complet</td>
+                    <td class="d">25 &#x20AC;</td>
+                </tr>
+                <tr>
+                    <td class="g">Dos</td>
+                    <td class="d">20 &#x20AC;</td>
+                </tr>
+                <tr>
+                    <td class="g">Torse</td>
+                    <td class="d">19 &#x20AC;</td>
+                </tr>
+                <tr>
+                    <td class="g">Epaules</td>
+                    <td class="d">5 &#x20AC;</td>
+                </tr>
+            </table>
+            <h2>Maquillage</h2>
+            <table>
+                <tr>
+                    <td class="g">Maquillage jour</td>
+                    <td class="d">25 &#x20AC;</td>
+                </tr>
+                <tr>
+                    <td class="g">Maquillage soir</td>
+                    <td class="d">30 &#x20AC;</td>
+                </tr>
+                <tr>
+                    <td class="g">Teinture cils</td>
+                    <td class="d">15 &#x20AC;</td>
+                </tr>
+                <tr>
+                    <td class="g">Teinture de Sourcils</td>
+                    <td class="d">12 &#x20AC;</td>
+                </tr>
+            </table>
+            <p><strong>*** Forfaits mariage sur demande ***</strong></p>
+            <h2>Les forfaits épilations</h2>
+            <table>
+                <tr>
+                    <td class="g">Demi jambes + aisselles ou maillot S</td>
+                    <td class="d">26 &#x20AC;</td>
+                </tr>
+                <tr>
+                    <td class="g">Jambes complètes + aisselles ou maillot S</td>
+                    <td class="d">36 &#x20AC;</td>
+                </tr>
+                <tr>
+                    <td class="g">Demi jambes + aisselles + maillot E</td>
+                    <td class="d">36 &#x20AC;</td>
+                </tr>
+                <tr>
+                    <td class="g">Jambes complètes + aisselles + maillot E</td>
+                    <td class="d">42 &#x20AC;</td>
+                </tr>
+                <tr>
+                    <td class="g">Demi jambes + aisselles + maillot I</td>
+                    <td class="d">50 &#x20AC;</td>
+                </tr>
+                <tr>
+                    <td class="g">Jambes complètes + aisselles + maillot I</td>
+                    <td class="d">59 &#x20AC;</td>
+                </tr>
+            </table>
+        </section>
         <footer>
             <p id="pied">baptiste.wentzler@wanadoo.fr</p>
         </footer>
