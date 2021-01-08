@@ -1,0 +1,35 @@
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+    h2{
+        color: $spec-color;
+        text-align: center;
+        text-decoration: underline;
+        margin: 15px 0;
+    }
+}
+
+.soin{
+    border: 2px solid $font-color;
+    margin: 10px 5px;
+    padding: 5px;
+    border-radius: 0 10px 10px 0;
+    width: 90%;
+    &__description{
+        h4{
+            color: $spec-color;
+            margin: 5px 10px;
+        }
+
+    }
+    &__prix{
+        text-align: right;
+        font-size: 1.2rem;
+        font-weight: bold;
+        margin: 10px 5px;
+
+    }
+}

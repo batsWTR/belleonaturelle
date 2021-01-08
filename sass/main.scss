@@ -1,9 +1,10 @@
-@import "base/typography";
-@import "utilities/variables";
-@import "layout/header";
-@import "pages/accueil";
-@import "pages/accueil";
-@import "pages/liens";
-@import "pages/soins";
-@import "pages/tarifs";
+
+@import 'base/__typography.scss';
+@import "utilities/__variables";
+@import "layout/__header";
+@import "pages/__accueil";
+@import "pages/__accueil";
+@import "pages/__liens";
+@import "pages/__soins";
+@import "pages/__tarifs";
 

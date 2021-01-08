@@ -1,0 +1,19 @@
+
+
+.liens{
+    h2{
+        color: $spec-color;
+        text-align: center;
+        text-decoration: underline;
+        margin: 15px 0;
+    }
+    ul{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        list-style: none;
+        li{
+            margin: 10px 0;
+        }
+    }
+}
