@@ -8,3 +8,15 @@ $spec-color: #d73055;
 @mixin myborder{
     border: 0.1rem solid $font-color;
 }
+
+@mixin medium-screen{
+    @media screen and (min-width:760px){
+        @content;
+    }
+}
+
+@mixin large-screen{
+    @media screen and (min-width:1199px){
+        @content;
+    }
+}

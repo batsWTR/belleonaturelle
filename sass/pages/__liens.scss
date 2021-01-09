@@ -12,8 +12,12 @@
         flex-direction: column;
         align-items: center;
         list-style: none;
+        @include medium-screen{
+            flex-direction: row;
+            justify-content: space-around;
+        }
         li{
-            margin: 10px 0;
+            margin: 1rem 1rem;
         }
     }
 }
