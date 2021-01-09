@@ -203,6 +203,7 @@ body {
 
 .soin {
   border: 0.1rem solid #af8d69;
+  box-shadow: 1rem 1rem 2rem #af8d69;
   margin: 10px 5px;
   padding: 5px;
   border-radius: 0 10px 10px 0;

@@ -14,6 +14,7 @@
 
 .soin{
     @include myborder;
+    @include shadow;
     margin: 10px 5px;
     padding: 5px;
     border-radius: 0 10px 10px 0;
