@@ -32,7 +32,7 @@
 }
 
 .promo{
-    font-size: 0.7rem;
+    font-size: $text_promo;
     text-align: center;
     margin: 10px 0;
     strong{
@@ -53,7 +53,7 @@
 
     &__item{
         margin: 4px 10px;
-        font-size: 1.4rem;
+        font-size: $nav_size;
         a{
             color: $spec-color;
             text-decoration: none;

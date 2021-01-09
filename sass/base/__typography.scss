@@ -7,3 +7,24 @@
     src: url("fonts/Delicious Curls bold.ttf");
 }
 
+$h1-height: 2.5rem;
+$text_promo: 0.7rem;
+$nav_size: 1.4rem;
+$price_size: 1.2rem;
+
+
+
+$font: delicious;
+$font-bold: delicious_bold;
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    box-sizing: border-box;
+    background-color: $bg-color;
+    color: $font-color;
+    font-size: 100%;
+}
