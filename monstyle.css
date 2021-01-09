@@ -83,7 +83,7 @@ body {
 }
 .horaires table {
   margin: auto;
-  border: 2px solid #af8d69;
+  border: 0.1rem solid #af8d69;
   border-radius: 0 0 15px 0;
   padding-bottom: 8px;
 }
@@ -172,7 +172,7 @@ body {
 }
 
 .soin {
-  border: 2px solid #af8d69;
+  border: 0.1rem solid #af8d69;
   margin: 10px 5px;
   padding: 5px;
   border-radius: 0 10px 10px 0;

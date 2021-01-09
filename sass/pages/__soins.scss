@@ -13,7 +13,7 @@
 }
 
 .soin{
-    border: 2px solid $font-color;
+    @include myborder;
     margin: 10px 5px;
     padding: 5px;
     border-radius: 0 10px 10px 0;
