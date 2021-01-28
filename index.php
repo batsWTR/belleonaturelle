@@ -18,12 +18,12 @@
                 <img src="logo_pap.png" alt="logo" id="logo"/>
             </div>
             <h1>Belle O Natur'elle</h1>
-            <div class="header__address">
+            <address class="header__address">
                 <h4>06.51.28.47.09</h4>
                 <p>coupe 66</p>
                 <p>43 place de la Mairie</p>
                 <p>74250 Bogève</p>
-            </div>
+            </address>
         </header>
         <p class="promo"><strong>-20%</strong> sur toutes les épilations pour les jeunes de - de <strong>20 ans</strong></p>
         <nav class="nav">
