@@ -5,13 +5,13 @@
 <html lang="fr">
     <head>
         <meta charset="utf-8" />
-        <meta name="description" content="Belleonaturelle ,nstitut de beauté a bogeve en vallée verte, venez profiter d'un moment de detente, epilation, manucure..." />
-        <meta name="keywords" content="institut de beauté, salon de beauté, manucure, esthétique, esthéticienne, bogève,vallée verte" />
+        <meta name="description" content="Belleonaturelle ,institut de beauté et d'esthétique a bogève en vallée verte, venez profiter d'un moment de détente, épilation, manucure, soin du visage, soin du corps" />
+        <meta name="keywords" content="Belleonaturelle institut de beauté bogève vallée verte, salon de beauté bogève, manucure, esthétique, esthéticienne,onglerie, épilation, maquillage,cosmétique bio, bien-être bogève,vallée verte" />
         <link rel="stylesheet" href="monstyle.css" />
         <link rel="icon" type="image/png" href="logo_pap.png"/>
         <meta name="robots" content="index, follow" />
         <meta name="viewport" content="device=device-width, initial-scale=1.0"/>
-        <title>Belle o Natur'elle Institut de beauté</title>
+        <title>BelleoNaturelle Institut de beauté à Bogève</title>
     </head>
     <body>
         <header class="header">
@@ -19,12 +19,12 @@
                 <img src="logo_pap.png" alt="logo" id="logo"/>
             </div>
             <h1>Belle O Natur'elle</h1>
-            <div class="header__address">
+            <address class="header__address">
                 <h4>06.51.28.47.09</h4>
                 <p>coupe 66</p>
                 <p>43 place de la Mairie</p>
                 <p>74250 Bogève</p>
-            </div>
+            </address>
         </header>
         <p class="promo"><strong>-20%</strong> sur toutes les épilations pour les jeunes de - de <strong>20 ans</strong></p>
         <nav class="nav">
