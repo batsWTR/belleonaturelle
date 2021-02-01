@@ -122,6 +122,12 @@ body {
   padding-right: 5px;
 }
 
+footer {
+  margin-top: 5rem;
+  border-top: 2px solid #af8d69;
+  padding-top: 2rem;
+}
+
 .presentation {
   margin: 0 10px;
 }
