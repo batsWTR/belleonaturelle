@@ -75,7 +75,7 @@
 
         </aside>
         <section class="presentation">
-            <img src="photo1.jpg" />
+            <img src="photo1.jpg" alt="photo intérieur belleonaturelle" />
             <div class="presentation__texte">
                 <p>Passionnée par le monde de l'ésthétique, diplomée d'un CAP puis un BP.<br/>
                 Après diverses expériences, Belle O natur'elle a vu le jour en décembre 2008<br/>
