@@ -17,7 +17,7 @@
     <body>
         <header class="header">
             <div class="header__logo">
-                <img src="logo_pap.png" alt="logo" id="logo"/>
+                <img src="logo_pap.webp" alt="logo" id="logo"/>
             </div>
             <h1>Belle O Natur'elle</h1>
             <address class="header__address">
@@ -75,7 +75,7 @@
 
         </aside>
         <section class="presentation">
-            <img src="photo1.jpg" alt="photo intérieur belleonaturelle" />
+            <img src="photo1.webp" alt="photo intérieur belleonaturelle" />
             <div class="presentation__texte">
                 <p>Passionnée par le monde de l'ésthétique, diplomée d'un CAP puis un BP.<br/>
                 Après diverses expériences, Belle O natur'elle a vu le jour en décembre 2008<br/>
@@ -86,7 +86,7 @@
         </section>
         <section class="phyts">
             <div>
-                <a href="https://www.cosmebio.org/fr/le-label/"><img src="logo_cosmebio.png" alt="cosmebio" /></a>
+                <a href="https://www.cosmebio.org/fr/le-label/"><img src="logo_cosmebio.webp" alt="cosmebio" /></a>
             </div>
             <h1>Phyt's, BIO-COSMÉTIQUE ACTIVE ... </h1>
             <h3>Naturalité</h3>
