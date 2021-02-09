@@ -6,7 +6,8 @@
     <head>
         <meta charset="utf-8" />
         <meta name="description" content="Belleonaturelle ,institut de beauté et d'esthétique a bogève en vallée verte, venez profiter d'un moment de détente, épilation, manucure, soin du visage, soin du corps" />
-        <meta name="keywords" content="Belleonaturelle institut de beauté bogève vallée verte, salon de beauté bogève, manucure, esthétique, esthéticienne,onglerie, épilation, maquillage,cosmétique bio, bien-être bogève,vallée verte" />
+        <meta name="keywords" content="Belleonaturelle institut de beauté à bogève vallée verte, salon de beauté à bogève vallée verte, manucure à bogève vallée verte, esthétique à bogève vallée verte, 
+        esthéticienne à bogève vallée verte,onglerie à bogève vallée verte, épilation à bogève vallée verte, maquillage à bogève vallée verte,cosmétique bio à bogève vallée verte, bien-être bogève,vallée verte" />
         <link rel="stylesheet" href="monstyle.css" />
         <link rel="icon" type="image/png" href="logo_pap.png"/>
         <meta name="robots" content="index, follow" />
