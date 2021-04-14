@@ -18,6 +18,14 @@
         }
         li{
             margin: 1rem 1rem;
+            
         }
     }
+    a{
+        display: inline-block;
+    }
+    a:hover{
+        transform: rotate3d(1,0.5,0,-25deg);
+    }
+    
 }

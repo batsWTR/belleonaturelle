@@ -19,6 +19,10 @@
     padding: 5px;
     border-radius: 0 10px 10px 0;
     width: 90%;
+    background-color: $bg-color;
+ 
+    animation: anim_card 3s ease-out;
+
     &__description{
         h4{
             color: $spec-color;
@@ -32,5 +36,14 @@
         font-weight: bold;
         margin: 10px 5px;
 
+    }
+}
+
+@keyframes anim_card {
+    0%{
+        transform:translateY(-25rem) rotate3d(1,0,0.4,-90deg);
+    }
+    100%{
+        transform:translateY(0) rotate3d(1,1,1,0deg);
     }
 }

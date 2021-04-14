@@ -54,6 +54,17 @@
         font-style: italic;
         color: $spec-color;
         font-weight: bold;
+        display: inline-block;
+        animation: anim_promo 4s infinite;
+    }
+}
+
+@keyframes anim_promo {
+    0%{
+        transform: rotate3d(0,1,0,0deg);
+    }
+    100%{
+        transform: rotate3d(0,1,0,360deg);
     }
 }
 
@@ -61,6 +72,7 @@
     ul{
         display: flex;
         flex-direction: row;
+        flex-wrap: wrap;
         justify-content: center;
         list-style: none;
         font-family: $font-bold;
@@ -72,8 +84,10 @@
         a{
             color: $spec-color;
             text-decoration: none;
+            display: inline-block;
             &:hover{
                 border-bottom: 2px solid $spec-color;
+                transform: rotateX(-55deg);
             }
         }
     }

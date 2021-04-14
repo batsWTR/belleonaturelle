@@ -7,8 +7,8 @@
         <meta charset="utf-8" />
         <meta name="description" content="Belleonaturelle ,institut de beauté et d'esthétique a bogève en vallée verte, venez profiter d'un moment de détente, épilation, manucure, soin du visage, soin du corps" />
         <meta name="keywords" content="Belleonaturelle institut de beauté bogève vallée verte, salon de beauté bogève, manucure, esthétique, esthéticienne,onglerie, épilation, maquillage,cosmétique bio, bien-être bogève,vallée verte" />
-        <link rel="stylesheet" href="monstyle.css" />
-        <link rel="icon" type="image/png" href="logo_pap.png"/>
+        <link rel="stylesheet" href="./sass/main.css" />
+        <link rel="icon" type="image/png" href="./img/logo_pap.webp"/>
         <meta name="robots" content="index, follow" />
         <link rel="canonical" href="http://www.belleonaturelle.fr/tarifs.html"/>
         <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
@@ -17,7 +17,7 @@
     <body>
         <header class="header">
             <div class="header__logo">
-                <img src="logo_pap.webp" alt="logo" id="logo"/>
+                <img src="./img/logo_pap.webp" alt="logo" id="logo"/>
             </div>
             <h1>Belle O Natur'elle</h1>
             <address class="header__address">
@@ -32,7 +32,7 @@
             <ul>
                 <li class="nav__item"><a href="index.php">Accueil</a></li>
                 <li class="nav__item"><a href="soins.html">Soins</a></li>
-                <li class="nav__item"><a href="tarifs.html">Tarifs</a></li>
+                <li class="nav__item"><a href="tarifs.html">Epilation/maquillage</a></li>
                 <li class="nav__item"><a href="liens.html">Liens</a></li>
             </ul>
         </nav>
@@ -43,31 +43,31 @@
                     <th>Heures</th>
                 </tr>
                 <tr>
-                    <td class="horaires__jour">Lundi</td>
+                    <td class="horaires__jour" id="1">Lundi</td>
                     <td class="horaires__heure">9h - 19h</td>
                 </tr>
                 <tr>
-                    <td class="horaires__jour">Mardi</td>
+                    <td class="horaires__jour" id="2">Mardi</td>
                     <td class="horaires__heure">Fermé</td>
                 </tr>
                 <tr>
-                    <td class="horaires__jour">Mercredi</td>
+                    <td class="horaires__jour" id="3">Mercredi</td>
                     <td class="horaires__heure">Fermé</td>
                 </tr>
                 <tr>
-                    <td class="horaires__jour">Jeudi</td>
+                    <td class="horaires__jour" id="4">Jeudi</td>
                     <td class="horaires__heure">9h - 19h</td>
                 </tr>
                 <tr>
-                    <td class="horaires__jour">Vendredi</td>
+                    <td class="horaires__jour" id="5">Vendredi</td>
                     <td class="horaires__heure">9h - 17h</td>
                 </tr>
                 <tr>
-                    <td class="horaires__jour">Samedi</td>
+                    <td class="horaires__jour" id="6">Samedi</td>
                     <td class="horaires__heure">8h30 - 16h</td>
                 </tr>
                 <tr>
-                    <td class="horaires__jour">Dimanche</td>
+                    <td class="horaires__jour" id="7">Dimanche</td>
                     <td class="horaires__heure">Fermé</td>
                 </tr>
 
@@ -189,5 +189,6 @@
         <footer>
             <p id="pied">baptiste.wentzler@wanadoo.fr</p>
         </footer>
+        <script src="./scripts/horaires.js"></script>
     </body>
 </html>

@@ -2,6 +2,15 @@
 
 .presentation{
     margin: 0 10px;
+
+    &__img{
+     
+        background-color: lighten($bg-color ,6);
+        padding: 1rem;
+        display: inline-block;
+        border: 2px solid $font-color;
+        border-radius: 1rem;
+    }
     img{
         max-width: 100%;
         height: auto;

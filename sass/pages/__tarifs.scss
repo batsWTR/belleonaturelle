@@ -1,6 +1,7 @@
 
 
 .container{
+    font-size: 1.2rem;
     table{
         width: 90%
     }
@@ -16,5 +17,7 @@
 .d{
     text-align: right;
     white-space: nowrap;
+    color: $spec-color;
+    font-weight: 900;
     
 }
