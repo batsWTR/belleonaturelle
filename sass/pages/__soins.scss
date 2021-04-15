@@ -39,11 +39,4 @@
     }
 }
 
-@keyframes anim_card {
-    0%{
-        transform:translateY(-25rem) rotate3d(1,0,0.4,-90deg);
-    }
-    100%{
-        transform:translateY(0) rotate3d(1,1,1,0deg);
-    }
-}
+
