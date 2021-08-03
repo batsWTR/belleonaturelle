@@ -1,10 +1,12 @@
 @font-face{
     font-family: delicious;
     src: url("./fonts/Delicious Curls.ttf");
+    font-display: swap;
 }
 @font-face{
     font-family: delicious_bold;
     src: url("./fonts/Delicious Curls bold.ttf");
+    font-display: swap;
 }
 
 $h1-height: 2.5rem;
