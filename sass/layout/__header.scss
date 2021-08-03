@@ -3,7 +3,7 @@
     overflow: hidden;
     border-bottom: 2px solid $font-color;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
     padding: 2rem 0;
     @include medium-screen{
@@ -39,6 +39,7 @@
 
     &__address{
         text-align: center;
+        margin-top: 3.5rem;
         @include medium-screen{
             align-self: flex-end;
             font-size: 80%;
