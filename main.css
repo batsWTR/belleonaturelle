@@ -429,7 +429,7 @@ footer p {
   margin: 15px 0;
 }
 
-.container p strong {
+.container p #forfait {
   text-decoration: underline;
 }
 
