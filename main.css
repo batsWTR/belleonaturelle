@@ -92,7 +92,7 @@ body {
 .header {
   position: relative;
   overflow: hidden;
-  border-bottom: 2px solid #634d35;
+  border-bottom: thick double #634d35;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -249,8 +249,12 @@ body {
 
 footer {
   margin-top: 5rem;
-  border-top: 2px solid #634d35;
+  border-top: thick double #634d35;
   padding-top: 2rem;
+}
+
+footer p {
+  text-align: center;
 }
 
 .presentation {
@@ -423,6 +427,10 @@ footer {
 
 .container p {
   margin: 15px 0;
+}
+
+.container p strong {
+  text-decoration: underline;
 }
 
 .g {
