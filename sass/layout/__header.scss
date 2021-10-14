@@ -1,44 +1,9 @@
 .header{
+    padding-top: 1rem;
+    background: rgba($bg-color,0.5);
+    
 
-
-    &__logo{
-        position: absolute;
-        align-self: flex-start;
-        //transform: translateX(45vw);
-        top: 14rem;
-        animation: anim_papillon 3s ease-out forwards;
-        
-        img{
-            width: 80px;
-            height: 80px;
-           object-fit: contain;
-           @include medium-screen{
-               width: 160px;
-               height: auto;
-           }
-        }
-    }
-    h1{
-        font-family: $font-bold;
-        color: $spec-color;
-        font-size: $h1-height;
-        padding: 20px 0;
-        margin-left: 35vw;
-        z-index: 10;
-    }
-
-    &__address{
-        text-align: center;
-        margin-top: 3.5rem;
-        @include medium-screen{
-            align-self: flex-end;
-            font-size: 80%;
-            margin-right: 1rem;
-        }
-        h4{
-            margin: 8px 0;
-        }
-    }
+    
 }
 
 .promo{

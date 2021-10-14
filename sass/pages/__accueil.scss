@@ -7,9 +7,21 @@
     height: 80vh;
     background: url('./img/poster_hero.png') top center;
     background-size: cover;
-    margin-bottom: -200px;
+    margin-bottom: -10vh;
+
+    h1{
+        font-family: $font-bold;
+        font-size: $h1-height;
+        color: $spec-color;
+        margin-left: 18vw;
+        padding-top: 8rem;
+
+    }
 }
 
+.card{
+    width: 15rem;
+}
 
 .presentation{
     margin: 0 10px;
