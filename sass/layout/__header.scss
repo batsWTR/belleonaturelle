@@ -1,15 +1,5 @@
 .header{
-    position: relative;
-    overflow: hidden;
-    border-bottom: thick double $font-color;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 2rem 0;
-    @include medium-screen{
-        flex-direction: row;
-        justify-content: space-between;
-    }
+
 
     &__logo{
         position: absolute;
