@@ -1,8 +1,24 @@
 .header{
     padding-top: 1rem;
-    background: rgba($bg-color,0.5);
+    background: rgba($bg-color,0.8);
+    font-family: $font-bold;
     
+    
+    img{
+        width: 2.5rem;
+        height: auto;
+    }
 
+    a{
+        color: $spec-color;
+        margin: 0 10px;
+        text-decoration: none;
+
+        &:hover{
+            color: darken($spec-color,15);
+            text-decoration: underline;
+        }
+    }
     
 }
 
@@ -24,30 +40,6 @@
 
 
 
-.nav{
-    ul{
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        justify-content: center;
-        list-style: none;
-        font-family: $font-bold;
-    }
-
-    &__item{
-        margin: 4px 18px;
-        font-size: $nav_size;
-        a{
-            color: $spec-color;
-            text-decoration: none;
-            display: inline-block;
-            &:hover{
-                border-bottom: 2px solid $spec-color;
-                transform: rotateX(-55deg);
-            }
-        }
-    }
-}
 
 .horaires{
     margin: 15px 0;
