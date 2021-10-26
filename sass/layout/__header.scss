@@ -1,34 +1,10 @@
-.header{
-    padding-top: 1rem;
-    background: rgba($bg-color,0.8);
-    font-family: $font-bold;
-    
-    
-    img{
-        width: 2.5rem;
-        height: auto;
-    }
 
-    a{
-        color: $spec-color;
-        margin: 0 10px;
-        text-decoration: none;
 
-        &:hover{
-            color: darken($spec-color,15);
-            text-decoration: underline;
-        }
-    }
-    
-}
 
 .promo{
     font-size: $text_promo;
     text-align: center;
     margin: 10px 0;
-    @include medium-screen{
-        font-size: $nav_size;
-    }
     strong{
         font-style: italic;
         color: $spec-color;
@@ -46,7 +22,6 @@
     padding: 10px 0;
     table{
         margin: auto;
-        @include myborder;
         border-radius: 0 0 15px 0;
         padding-bottom: 8px;
     }

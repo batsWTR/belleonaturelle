@@ -1,13 +1,5 @@
 
 
-@keyframes anim_card {
-    0%{
-        transform:translateY(-25rem) rotate3d(1,0,0.4,-90deg);
-    }
-    100%{
-        transform:translateY(0) rotate3d(1,1,1,0deg);
-    }
-}
 
 
 @keyframes anim_promo {
@@ -19,11 +11,3 @@
     }
 }
 
-@keyframes anim_papillon {
-    0%{
-        transform: scale(0.1);
-    }
-    100%{
-        transform:scale(2) translateX(25vw) translateY(-3.5rem);
-    }
-}
