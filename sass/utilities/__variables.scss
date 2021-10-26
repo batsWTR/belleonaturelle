@@ -5,21 +5,6 @@ $font-color: darken(#af8d69, 25);
 $spec-color: #d73055;
 
 
-@mixin myborder{
-    border: 0.1rem solid $font-color;
-}
-
-@mixin medium-screen{
-    @media screen and (min-width:760px){
-        @content;
-    }
-}
-
-@mixin large-screen{
-    @media screen and (min-width:1199px){
-        @content;
-    }
-}
-@mixin shadow{
-    box-shadow: 1rem 1rem 2rem $font-color;
+.card-footer{
+    text-align: right;
 }
