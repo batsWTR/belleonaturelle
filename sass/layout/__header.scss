@@ -1,5 +1,22 @@
 
+.header{
+    background-color: rgba($bg-color, 0.8);
+    font-family: $font-bold;
+    padding: 10px;
 
+    .nav-item{
+        margin: 0 15px;
+
+        a{
+            color: $spec-color;
+            text-decoration: none;
+        }
+    }
+
+    button{
+        color: $spec-color;
+    }
+}
 
 .promo{
     font-size: $text_promo;

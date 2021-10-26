@@ -79,6 +79,25 @@ body {
   background-size: cover;
 }
 
+.header {
+  background-color: rgba(250, 246, 241, 0.8);
+  font-family: delicious_bold;
+  padding: 10px;
+}
+
+.header .nav-item {
+  margin: 0 15px;
+}
+
+.header .nav-item a {
+  color: #d73055;
+  text-decoration: none;
+}
+
+.header button {
+  color: #d73055;
+}
+
 .promo {
   font-size: 0.7rem;
   text-align: center;
