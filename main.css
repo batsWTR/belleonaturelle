@@ -133,6 +133,12 @@ footer p {
   padding-top: 8rem;
 }
 
+.card-index {
+  width: 15rem;
+  text-decoration: none;
+  color: #634d35;
+}
+
 .presentation {
   margin: 0 10px;
 }
