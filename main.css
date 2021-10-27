@@ -75,6 +75,11 @@ body {
   background-size: cover;
 }
 
+.card-footer {
+  color: #d73055;
+  text-align: end;
+}
+
 .header {
   background-color: rgba(250, 246, 241, 0.8);
   font-family: delicious_bold;
@@ -95,7 +100,7 @@ body {
 }
 
 .promo {
-  font-size: 0.7rem;
+  font-size: 4vw;
   text-align: center;
   margin: 10px 0;
 }
