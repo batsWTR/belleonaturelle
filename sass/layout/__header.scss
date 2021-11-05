@@ -30,7 +30,26 @@
         animation: anim_promo 4s infinite;
     }
 }
+.dropdown-menu{
+    width: 13rem;
+    background-color: rgba($bg-color, 0.8);
+    
+    .dropdown-item{
+        color: $font-color;
+    }
+    tbody, thead{
+        width: 100%;
+        display: table;
+        
+    }
+    thead{
+        margin-bottom: 0.6rem;
+    }
+}
 
+.card{
+    width: 20rem;
+}
 
 
 footer{

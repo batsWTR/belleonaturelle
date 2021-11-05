@@ -25,7 +25,9 @@
     <body>
         <header class="header fixed-top">
             <nav class="navbar navbar-expand-md justify-content-between">
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
                     Menu
                 </button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -37,9 +39,56 @@
                         <li class="nav-item"><a href="epillation.html">Epillation</a></li>
                         <li class="nav-item"><a href="maquillage.html">Maquillage</a></li>
                         <li class="nav-item"><a href="liens.html">Liens</a></li>
+                        <li class="nav-item">
+                            <div class="dropdown">
+                                <a class="dropdown-toggle" href="#" id="dropdownMenuLink" data-bs-toggle="dropdown"
+                                    aria-expanded="false">Horaires</a>
+                                <table class="dropdown-menu">
+                                    <thead>
+                                        <tr class="dropdown-item  d-flex justify-content-between">
+                                            <th>Jour</th>
+                                            <th>Heures</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr class="dropdown-item d-flex justify-content-between">
+                                            <td class="horaires__jour" id="1">Lundi</td>
+                                            <td class="horaires__heure">9h - 19h</td>
+                                        </tr>
+                                        <tr class="dropdown-item  d-flex justify-content-between">
+                                            <td class="horaires__jour" id="2">Mardi</td>
+                                            <td class="horaires__heure">Fermé</td>
+                                        </tr>
+                                        <tr class="dropdown-item d-flex justify-content-between">
+                                            <td class="horaires__jour" id="3">Mercredi</td>
+                                            <td class="horaires__heure">Fermé</td>
+                                        </tr>
+                                        <tr class="dropdown-item d-flex justify-content-between">
+                                            <td class="horaires__jour" id="4">Jeudi</td>
+                                            <td class="horaires__heure">9h - 19h</td>
+                                        </tr>
+                                        <tr class="dropdown-item d-flex justify-content-between">
+                                            <td class="horaires__jour" id="5">Vendredi</td>
+                                            <td class="horaires__heure">9h - 17h</td>
+                                        </tr>
+                                        <tr class="dropdown-item d-flex justify-content-between">
+                                            <td class="horaires__jour" id="6">Samedi</td>
+                                            <td class="horaires__heure">8h30 - 16h</td>
+                                        </tr>
+                                        <tr class="dropdown-item d-flex justify-content-between">
+                                            <td class="horaires__jour" id="7">Dimanche</td>
+                                            <td class="horaires__heure">Fermé</td>
+                                        </tr>
+                                    </tbody>
+                                    
+                                    
+    
+                                </table>
+                            </div>
+                        </li>
                     </ul>
                 </div>
-                
+    
             </nav>
         </header>
         <div id="hero" class="bg-maquillage" >
