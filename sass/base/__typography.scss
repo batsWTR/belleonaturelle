@@ -10,7 +10,7 @@
 }
 
 $h1-height: 2.5rem;
-$text_promo: 4vw;
+$text_promo: 2rem;
 $nav_size: 1.4rem;
 $price_size: 1.2rem;
 
@@ -29,4 +29,9 @@ body{
     background-color: $bg-color;
     color: $font-color;
     font-size: 100%;
+}
+
+
+.content{
+    margin: 0 1rem;
 }

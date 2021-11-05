@@ -23,6 +23,7 @@
     width: 15rem;
     text-decoration: none;
     color: $font-color;
+    margin-bottom: 1rem;
 }
 
 
@@ -30,26 +31,28 @@
 .presentation{
     margin: 0 10px;
 
-    &__img{
-     
-        background-color: lighten($bg-color ,6);
-        padding: 1rem;
-        display: inline-block;
-        border: 2px solid $font-color;
-        border-radius: 1rem;
-    }
-    img{
-        max-width: 100%;
-        height: auto;
-        text-align: center;
-    }
     &__texte{
         margin: 15px 0 ;
+        text-align: center;
+
+        em{
+            font-family: $font-bold;
+        }
     }
 }
 
 .phyts{
-    margin: 15px 6px;
+    margin: 2rem 1rem;
+    width: 75%;
+    div{
+        float: left;
+        
+        img{
+            width: 5rem;
+            height: auto;
+        }
+        
+    }
     h1{
         margin: 15px 0;
     }

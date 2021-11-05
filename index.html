@@ -96,7 +96,7 @@
     <div id="hero" class="bg-accueil">
         <h1>Belle o natur'elle</h1>
     </div>
-    <p class="promo"><strong>-20%</strong> sur toutes les épilations pour les - de <strong>20 ans</strong>
+    <p class="promo"><strong>-20%</strong> sur les épilations pour les - de <strong>20 ans</strong>
     </p>
     <div class="container d-flex flex-row flex-wrap justify-content-around">
         <a href="./soins_visage.html" class="card my-2 mx-4 card-index">
@@ -147,9 +147,6 @@
 
 
     <section class="presentation">
-        <div class="presentation__img">
-            <img src="./img/photo1.webp" alt="photo intérieur belleonaturelle" />
-        </div>
         <div class="presentation__texte ">
             <p>Passionnée par le monde de l'ésthétique, diplomée d'un CAP puis un BP.<br />
                 Après diverses expériences, Belle O natur'elle a vu le jour en décembre 2008<br />
@@ -162,7 +159,7 @@
     </section>
     <section class="phyts">
         <div>
-            <a href="https://www.cosmebio.org/fr/le-label/"><img src="./img/logo_cosmebio.webp" alt="cosmebio" /></a>
+            <a href="https://www.cosmebio.org/fr/le-label/"><img src="./img/logo-cosmebio.png" alt="cosmebio" /></a>
         </div>
         <h1>Phyt's, BIO-COSMÉTIQUE ACTIVE ... </h1>
         <h3>Naturalité</h3>
@@ -194,17 +191,7 @@
     </section>
     <footer>
         <p id="pied">Crédits : <strong>baWee</strong> baptiste.wentzler@wanadoo.fr</p>
-        <?php
-                $fichier = fopen("compteur.txt",'r+');
-                $vues = fgets($fichier);
-                $vues += 1;
-                fseek($fichier,0);
-                fputs($fichier, $vues);
-                fclose($fichier);
 
-                echo '<p id="pied">Déjà ' . $vues . ' vues</p>';
-
-            ?>
     </footer>
 
     <script src="./scripts/horaires.js"></script>
