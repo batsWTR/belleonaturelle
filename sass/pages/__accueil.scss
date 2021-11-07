@@ -24,6 +24,10 @@
     text-decoration: none;
     color: $font-color;
     margin-bottom: 1rem;
+
+    &:hover{
+        color: $spec-color;
+    }
 }
 
 
