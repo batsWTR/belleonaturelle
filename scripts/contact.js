@@ -13,7 +13,7 @@
 
         let FD = {
             nom: formdata.get('nom'),
-            mailTo: 'baptiste.wentzler@wanadoo.fr',
+            site: 'baptistewentzler',
             mail: formdata.get('mail'),
             message: formdata.get('message')
         }
