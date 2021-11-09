@@ -1,0 +1,22 @@
+
+
+
+
+#formContact{
+    h2, label{
+        color: $spec-color;
+    }
+}
+
+.liens{
+    h2{
+        color: $spec-color;
+    }
+    ul{
+        list-style: none;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: baseline;
+    }
+}
