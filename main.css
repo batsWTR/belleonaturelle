@@ -60,7 +60,7 @@ body {
 }
 
 .bg-soinsVisage {
-  background: url("./img/soins_visage.jpg") right center;
+  background: url("./img/soins_visage.jpg") left center;
   background-size: cover;
 }
 
@@ -82,6 +82,28 @@ body {
 .bg-liens {
   background: url("./img/contact.jpg") center left;
   background-size: cover;
+}
+
+.address {
+  margin-top: 70px;
+  width: 35%;
+  background-color: rgba(250, 246, 241, 0.6);
+}
+
+.address p {
+  margin: 0;
+  text-align: center;
+}
+
+.address a {
+  display: block;
+  color: #d73055;
+  text-align: center;
+  cursor: pointer;
+}
+
+.address a:hover {
+  color: #9c1e3a;
 }
 
 .card-footer {
@@ -162,6 +184,7 @@ footer p {
 #hero {
   width: 100%;
   height: 85vh;
+  z-index: -100;
   margin-bottom: -20vh;
 }
 

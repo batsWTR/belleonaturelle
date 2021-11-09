@@ -12,7 +12,7 @@
 }
 
 .bg-soinsVisage{
-    background: url('./img/soins_visage.jpg') right center;
+    background: url('./img/soins_visage.jpg') left center;
     background-size: cover;
 }
 
@@ -35,7 +35,25 @@
     background: url('./img/contact.jpg') center left;
     background-size: cover;
 }
-
+.address{
+    //position: absolute;
+    margin-top: 70px;
+    width: 35%;
+    background-color: rgba($bg-color,0.6);
+    p{
+        margin: 0;
+        text-align: center;
+    }
+    a{
+        display: block;
+        color: $spec-color;
+        text-align: center;
+        cursor: pointer;
+        &:hover{
+            color:darken($spec-color,15);
+        }
+    }
+}
 .card-footer{
     color: $spec-color;
     text-align: end;
